@@ -160,12 +160,12 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #689ff1;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+color: #3e86f3;;
   text-decoration: underline;
 }
 
@@ -1753,7 +1753,7 @@ pre code {
 .table-success td,
 .table-success thead th,
 .table-success tbody + tbody {
-  border-color: #8fd19e;
+  border-color: #689ff1;
 }
 
 .table-hover .table-success:hover {
