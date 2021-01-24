@@ -39,8 +39,6 @@
     border-bottom: 2px solid #000000;
     letter-spacing: .2em;
 
-
-
   }
 
 
@@ -146,6 +144,23 @@
    line-height: 30px;
    letter-spacing: .3em;
  }
+
+ .about .about-list{
+  
+  letter-spacing: 3px;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  font-size: 1.1em;
+  
+  /* margin-right: 30px; */
+
+}.about .about-list a {
+  /* padding-bottom: 5px; */
+  text-decoration: none;
+  /* border-bottom: 1px solid rgba(155, 169, 236, 0.822);  */
+}
+  .about .about-list a:hover {
+      color: #a3a3a3 }
 
     .about img {
      width: 10em;
