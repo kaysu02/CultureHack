@@ -285,18 +285,30 @@
     text-align: center;
   }
   .explore img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     display:block;
-    max-width:150%;
+    padding: 1em;
     height: auto;
     /* background:#68c url('img/logo.png') no-repeat center center; */
      margin:0 auto;
     height:200px;
 
+
    display:block;
    cursor:pointer;
     
     position: relative;
+    
 
+  }
+
+  .explore a:hover{
+    
+    background-color: #85858593;
+  
+    
   }
 
 
