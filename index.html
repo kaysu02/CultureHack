@@ -1,100 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Website to explore new cultures" />
-        <meta name="author" content="" />
-        <title>Bridging Borders</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+<html>
 
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+<head>
+	<title>Kaylee Su</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="custom.css" />
+	<link rel="shortcut icon" href="icon.png" />
+	<link href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap' rel='stylesheet'>
 
-        
-        <link href="css/destination.css" rel="stylesheet" />
-    </head>
+</head>
 
-    <body>
-    <!-- Navigation -->
-    <div class="nav" id="nav">
-        
-        <ul class=nav-list>
-            <a href="#about">ABOUT US</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="explore.html">EXPLORE</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        </ul>
-       
-    </div>
+<body>
 
+	<!-- border -->
+	<div id="left"></div>
+	<div id="right"></div>
+	<div id="top"></div>
+	<div id="bottom"></div>
 
-<div class="container">
-    <h1>BRIDGING BORDERS</h1>
-    <h1><div>
-        <div style = "position:relative; top:60px;"> <img src = "assets/explore-arrows.png"> </div> 
-    </h1>
-        <br> 
-  <img src="assets/map.png" alt="Snow" style="width:100%">
-  <button class="btn" input type="button" onclick="runme()">EXPLORE CULTURES</button>
-</div>
+	<!-- Navigation -->
+	<div class="nav" id="nav">
 
-<br>
+		<ul class=nav-list>
+			<class="active"><a href="index.html">Work</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+				<a href="mailto:kaysu02@utexas.edu">Contact</a>
+		</ul>
 
-<div class="about" id="about">
-    <h2>MEET THE TEAM </h2>
+	</div>
+	<br><br>
 
-    <ul class=about-list>
-        <a href="https://www.linkedin.com/in/anna-zhang-26895342">-Anna-</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/kaylee-su/">-Kaylee-</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/annnie-tu">-Annie-</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/jacinta-harshe/">-Jacinta-</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/tessa-nishida/">-Tessa-</a>
+	<!-- Introduction -->
+	<div class="about">
+		<h5>Kaylee Su is a computer science major
+			and business minor at the University of Texas at Austin</h5>
 
-    </ul>
-   
-    <img src="assets/anna.jpg">
-    
-    <img src="assets/kaylee.JPG">
-    
-    <img src="assets/annie.jpg">
-    <img src="assets/jacinta.jpg">
-    <img src="assets/tessa.jpg" >
+		<br>
+		<!-- <p>pursuing a computer science major 
+		and business minor at the University of Texas at Austin</p>	
+		<br>
+		<p>performing UI/UX design</p>
+		<br>
+		<p>researching robot learning</p>	 -->
 
-    <br>
-    <br>
+	</div>
 
 
-    <h2>Want to travel, but can’t? *Us too*</h2>
-<br>
-    <p>
-        We are a team of 5 designers/programmers from across the US and Canada. 
-        Bridging Borders was created to help unearth the beauty of the world we live in.
-        <br>
-        <br>
-        
-        Though our ability to travel may have been put on pause, we are still ready to play. 
-        Immerse yourself in different cultures and expand your world from the comfort of your own home.
-        We hope that learning about other parts of the world will bring us all closer together.
-    </p>  
+	<div class="work" id="about">
+		<div class="container">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+				* {
+					box-sizing: border-box;
+					
+					
+				}
 
-    <br><br><br>
-</div>
+				/* Create two unequal columns that floats next to each other */
+				.column {
+					float: left;
+					padding: 0px;
+
+				}
+
+				.left {
+					width: 50%;
+
+				}
+
+				.right {
+					width: 50%;
+				}
+
+				/* Clear floats after the columns */
+				.row:after {
+					content: "";
+					display: table;
+					clear: both;
+				}
+			</style>
+
+
+			<!-- Experience --> 
+			<div class="row">
+				<div class="column left">
+					<h5>Experience</h5>
+
+				</div>
+				<div class="column right">
+
+					<ul class="work-list">
+						<li>2019</li>
+						<li><a href="https://wellaware.us/">WellAware Software QA Analyst</a></li>
+					</ul>
+					<br><br><br><br><br>
+
+				</div>
+
+
+				<!-- Proj -->
+
+				<div class="row">
+					<div class="column left">
+						<h5>Projects</h5>
+
+					</div>
+					<div class="column right">
+						
+						<ul class="work-list">
+							<li>2020</li>
+							<li><a href="bridgingBorders.html">Bridging Borders</a></li>
+							<li><a href="https://itch.io/jam/ut-game-jam-2020/results/rookie-award">Error.exe</a></li>
+						</ul>
+						<br><br>
+						<ul class="work-list">
+							<li>2019</li>
+							<li><a href="https://www.cs.utexas.edu/~ans/pubs/ghc_oct13.pdf">Project Illuminate</a></li>
+						</ul>
+						<br><br><br><br><br>
+
+					</div>
+
+
+					<!-- Case Studies -->
+					<div class="row">
+						<div class="column left">
+							<h5>Case Studies</h5>
+
+						</div>
+						<div class="column right">
+
+							<ul class="work-list">
+								<li>2020</li>
+								<li><a href="404.html">Apple Calendar Redesign</a></li>
+
+							</ul>
+
+							</ul>
+							<br><br><br><br><br>
+						</div>
 
 
 
-<!-- javascript -->
-<script>
-    function runme() {
-    var arr = ["seattle.html", "nanchang.html"];
-    var value = arr[Math.floor(Math.random() * arr.length)];
-    // alert("Would navigate to : " + value);
-     window.location = value;     // remove  comment  t actually navigate
-}
-</script>
+						<!-- activities -->
 
+						<div class="row">
+							<div class="column left">
+								<h5>Activities</h5>
+
+							</div>
+							<div class="column right">
+
+								<ul class="work-list">
+									<li>2020 - Current</li>
+
+									<li><a href="https://www.texasacm.org/">ACM Corporate Officer</a></li>
+
+									<li><a href="404.html">Texas Deep Net Chief Media Officer</a></li>
+								</ul>
+								<br>
+								<br>
+								<ul class="work-list">
+									<li>2016 - 2020</li>
+
+									<li><a href="https://mualphatheta.org/">Mu Alpha Theta Vice President</a></li>
+								</ul>
+								<br><br><br><br><br>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Technical Skills -->
+				<div class="row">
+					<div class="column left">
+						<h5>Technical Skills</h5>
+
+					</div>
+					<div class="column right">
+
+
+						<ul class="work-list ">
+							<li>Web Technology</li>
+							<li>
+								<h3>HTML / CSS </h3>
+							</li>
+
+						</ul>
+						<br>
+						<ul class="work-list ">
+							<li>Development</li>
+							<li>
+								<h3>Java / Python </h3>
+							</li>
+						</ul>
+						<br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<div class="nav">
+		<!-- <div class="container"> -->
+		<ul class=nav-list>
+
+			<a href="https://drive.google.com/file/d/1wIIckkzT7Oi5XESyZiooEIws8-WxpMRK/view?usp=sharing">Resume</a>&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="mailto:kaysu02@utexas.edu">Email</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://www.linkedin.com/in/kaylee-su">LinkedIn</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+			<!-- <a href="https://medium.com/@kaysu02">Medium</a> -->
+		</ul>
+		<!-- </div> -->
+	</div>
+
+
+	<!-- Javascript -->
+	<script src="jquery.min.js"></script>
+	<script src="typed.min.js"></script>
+
+	<script>
+		function newTyped() { } $(function () {
+			$("#typed").typed({
+				strings: [""],
+
+		typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }}), $(".reset").click(function () { $("#typed").typed("reset") })
+		});
+	</script>
 </body>
 
-
 </html>
-
-        
-     
